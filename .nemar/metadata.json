@@ -1,27 +1,137 @@
 {
   "version": "2.0",
-  "dataset_id": "on005516",
-  "source": "openneuro",
-  "source_id": "ds005516",
+  "pipeline_stage": "enriched",
   "title": "Healthy Brain Network (HBN) EEG - Release 11",
-  "authors": {
-    "Seyed Yahya Shirazi": {},
-    "Alexandre Franco": {},
-    "Maurício Scopel Hoffmann": {},
-    "Nathalia B. Esper": {},
-    "Dung Truong": {},
-    "Arnaud Delorme": {},
-    "Michael Milham": {},
-    "Scott Makeig": {}
-  },
   "license": "CC-BY-SA 4.0",
   "dataset_type": "raw",
+  "authors": {
+    "Seyed Yahya Shirazi": {
+      "orcid": "0000-0001-5557-259X"
+    },
+    "Alexandre Franco": {
+      "orcid": "0000-0002-1552-1090"
+    },
+    "Maurício Scopel Hoffmann": {
+      "orcid": "0000-0003-4232-3169"
+    },
+    "Nathalia B. Esper": {
+      "orcid": "0000-0003-3218-9226"
+    },
+    "Dung Truong": {
+      "orcid": "0000-0003-4540-3551"
+    },
+    "Arnaud Delorme": {
+      "orcid": "0000-0002-0799-3557"
+    },
+    "Michael Milham": {},
+    "Scott Makeig": {
+      "orcid": "0000-0002-9048-8438"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005516.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2024.10.03.615261",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2017.181",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2017.40",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005516",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005516",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "funding_references": [
+    {
+      "funder_name": "See https://childmind.org/science/global-open-science/healthy-brain-network/#donors"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01MH125934",
+      "award_title": "BIDS data preparation"
+    },
+    {
+      "funder_name": "Child Mind Institute"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "description": "The Healthy Brain Network (HBN) EEG Release 11 dataset comprises high-resolution electroencephalogram recordings from 430 children and adolescents (ages 5-21 years) performing six distinct cognitive and perceptual tasks, including resting state, passive viewing tasks (surround suppression, movie watching), and active tasks (contrast change detection, sequence learning, symbol search). The dataset includes behavioral responses, hierarchical event descriptors for systematic meta-analysis, and psychopathology measures derived from the Child Behavior Checklist, providing a comprehensive resource for investigating neural correlates of typical and atypical development.",
+  "methods_description": "EEG data were collected during six tasks: three passive tasks (resting state with eyes open/closed fixation, surround suppression with flashing peripheral disks, and movie watching) and three active tasks requiring participant responses (contrast change detection with feedback, sequence learning with age-appropriate designs, and computerized symbol search). Behavioral responses including reaction times and accuracy were recorded during task performance. Data quality control verified absence of corruption, presence of necessary task events, and overall data integrity. Data were curated into BIDS format with hierarchical event descriptors (HED 8.3.0) for systematic meta-analysis.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "child development"
+    },
+    {
+      "term": "adolescent neuroscience"
+    },
+    {
+      "term": "cognitive tasks"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "hierarchical event descriptors"
+    },
+    {
+      "term": "psychopathology"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "HED annotation"
+    },
+    {
+      "term": "CBCL"
+    },
+    {
+      "term": "behavioral responses"
+    },
+    {
+      "term": "Healthy Brain Network"
+    },
+    {
+      "term": "surround suppression"
+    },
+    {
+      "term": "contrast change detection"
+    },
+    {
+      "term": "sequence learning"
+    },
+    {
+      "term": "symbol search"
+    }
+  ],
+  "source_hash": "c8338544b27f9c07849f345e5f5934a7d618e7a3f5a7c4d5cf163969bfcd5bed"
 }
